@@ -1,13 +1,18 @@
+body .main-wrapper {
+    width: 33vh !important;
+    height: 100vh !important;
+}
+
 .main-top-section {
     width: 100%;
-    height: 375px;
+    height: 40%;
     background: #F7F1E7;
     position: relative;
 }
 
 .top-header {
     width: 100%;
-    height: 70px;
+    height: 10%;
     text-align: center;
     background: #D8D8D8;
 }
@@ -15,24 +20,26 @@
 /*  Step-1 You need to get all of these elements to line up side by side. What display property would do this for you? */
 
 .menu {
-    width: 100px;
-    height: 40px;
+    width: 15%;
+    height: 70%;
     background: #536A63;
+    display: inline-block;
     float: left;
 }
 
 .logo {
-    width: 300px;
-    height: 40px;
-    margin-top: 10px;
+    width: 40%;
+    height: 70%;
+    margin-top: 5px;
     background: #536A63;
     display: inline-block;
 
 }
 
 .sign-in {
-    width: 100px;
-    height: 40px;
+    width: 15%;
+    height: 70%;
     background: #536A63;
+    display: inline-block;
     float: right;
 }
